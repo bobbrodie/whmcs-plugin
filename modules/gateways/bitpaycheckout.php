@@ -20,7 +20,7 @@ if (!defined("WHMCS")) {
 }
 
 include_once(__DIR__ . DIRECTORY_SEPARATOR . 'bitpaycheckout'
-                     . DIRECTORY_SEPARATOR .  'vendor'
+                     . DIRECTORY_SEPARATOR . 'vendor'
                      . DIRECTORY_SEPARATOR . 'autoload.php');
 
 use BitPaySDK\PosClient;
